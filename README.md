@@ -2,4 +2,16 @@
 We train a sequence to sequence (seq2seq) model for Spanish to English translation.   
 After training the model we will be able to input a Spanish sentence, such as `¿todavia estan en casa?`, and return the English translation: `are you still at home?`
 
+# Download and prepare the dataset
+We use a language dataset provided by http://www.manythings.org/anki/ This dataset contains language translation pairs in the format:
+
+`May I borrow this book?` `¿Puedo tomar prestado este libro?`
+
+There are a variety of languages available, but we'll use the English-Spanish dataset. For convenience, we've hosted a copy of this dataset on Google Cloud, but you can also download your own copy. After downloading the dataset, here are the steps we take to prepare the data:
+
+1. Add a start and end token to each sentence.
+2. Clean the sentences by removing special characters.
+3. Create a word index and reverse word index (dictionaries mapping from word → id and id → word).
+4. Pad each sentence to a maximum length.
+
 
