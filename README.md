@@ -24,7 +24,7 @@ Spanish:
 An NMT system first reads the source sentence using an encoder to build a "thought" vector, a sequence of numbers that represents the sentence meaning; a decoder, then, processes the sentence vector to emit a translation, as illustrated in Figure 1. This is often referred to as the encoder-decoder architecture. In this manner, NMT addresses the local translation problem in the traditional phrase-based approach: it can capture long-range dependencies in languages, e.g., gender agreements; syntax structures; etc., and produce much more fluent translations as demonstrated by Google Neural Machine Translation systems.
 
 <figure>
-    <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/encoder_decoder_architecture.jpg" height="150" width="90">
+    <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/encoder_decoder_architecture.jpg">
     <figcaption>Your label goes here</figcaption>
 </figure>
 
@@ -33,6 +33,6 @@ NMT models vary in terms of their exact architectures. A natural choice for sequ
 We consider as examples a deep multi-layer RNN which is unidirectional and uses LSTM as a recurrent unit. We show an example of such a model in Figure 2. In this example, we build a model to translate a source sentence "I am a student" into a target sentence "Je suis étudiant". At a high level, the NMT model consists of two recurrent neural networks: the encoder RNN simply consumes the input source words without making any prediction; the decoder, on the other hand, processes the target sentence while predicting the next words.
 
 <figure>
-    <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/neural_machine_translation.jpg" height="150" width="90">
+    <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/neural_machine_translation.jpg">
     <figcaption>Your label goes here</figcaption>
 </figure>
