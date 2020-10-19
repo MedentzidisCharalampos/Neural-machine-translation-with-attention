@@ -20,4 +20,4 @@ English:
 Spanish:    
 `<start> si quieres sonar como un hablante nativo , debes estar dispuesto a practicar diciendo la misma frase una y otra vez de la misma manera en que un musico de banjo practica el mismo fraseo una y otra vez hasta que lo puedan tocar correctamente y en el tiempo esperado . <end>`    
 
-
+# The Encoder and Decoder model
