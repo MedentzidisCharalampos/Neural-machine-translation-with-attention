@@ -24,13 +24,13 @@ Spanish:
 
 The key idea of the attention mechanism is to establish direct short-cut connections between the target and the source by paying "attention" to relevant source content as we translate. A nice byproduct of the attention mechanism is an easy-to-visualize alignment matrix between the source and target sentences.
 
-![alt text](https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/attention%20visualization.png)
-Figure 1. Attention visualization
+![alt text](https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/attention%20visualization.png)  
+Figure 1. Attention visualization.  
 
 We now describe an instance of the attention mechanism proposed in (Luong et al., 2015), which has been used in several state-of-the-art systems including open-source toolkits such as OpenNMT.
 
-![alt text](https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/attention_mechanism.jpg)
-Figure 2. Attention mechanism
+![alt text](https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/attention_mechanism.jpg)  
+Figure 2. Attention mechanism.  
 
 As illustrated in Figure 2, the attention computation happens at every decoder time step. It consists of the following stages:
 
@@ -39,7 +39,7 @@ As illustrated in Figure 2, the attention computation happens at every decoder t
 3. Combine the context vector with the current target hidden state to yield the final attention vector
 4. The attention vector is fed as an input to the next time step (input feeding). The first three steps can be summarized by the equations below:
 
-
+![alt text](https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/attention_equation.jpg)
 
 
 
