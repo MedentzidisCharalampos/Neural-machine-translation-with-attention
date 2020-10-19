@@ -37,3 +37,22 @@ We consider as examples a deep multi-layer RNN which is unidirectional and uses 
   <img  src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/neural_machine_translation.jpg">
   <p>Figure 2. Neural machine translation – example of a deep recurrent architecture proposed by for translating a source sentence "I am a student" into a target sentence "Je suis étudiant".</p>
 </p>
+
+
+At the bottom layer, the encoder and decoder RNNs receive as input the following: first, the source sentence, then a boundary marker "<s>" which indicates the transition from the encoding to the decoding mode, and the target sentence. For training, we will feed the system with the following tensors, which are in time-major format and contain word indices:
+
+encoder_inputs [max_encoder_time, batch_size]: source input words.
+decoder_inputs [max_decoder_time, batch_size]: target input words.
+decoder_outputs [max_decoder_time, batch_size]: target output words, these are decoder_inputs shifted to the left by one time step with an end-of-sentence tag appended on the right.
+
+Embedding:  
+
+Given the categorical nature of words, the model must first look up the source and target embeddings to retrieve the corresponding word representations. For this embedding layer to work, a vocabulary is first chosen for each language. The embedding weights, one set per language, are learned during training.
+
+Encoder:  
+
+Once retrieved, the word embeddings are then fed as input into the main network, which consists of two multi-layer RNNs – an encoder for the source language and a decoder for the target language. These two RNNs, in principle, can share the same weights.
+
+Decoder: 
+
+
