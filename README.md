@@ -14,8 +14,10 @@ There are a variety of languages available, but we'll use the English-Spanish da
 3. Create a word index and reverse word index (dictionaries mapping from word → id and id → word).
 4. Pad each sentence to a maximum length.
 
-The output after the preprocessing of the dataset:  
+The output after the preprocessing of the dataset: 
+English:
 `<start> if you want to sound like a native speaker , you must be willing to practice saying the same sentence over and over in the same way that banjo players practice the same phrase over and over until they can play it correctly and at the desired tempo . <end>`
-`<start> si quieres sonar como un hablante nativo , debes estar dispuesto a practicar diciendo la misma frase una y otra vez de la misma manera en que un musico de banjo practica el mismo fraseo una y otra vez hasta que lo puedan tocar correctamente y en el tiempo esperado . <end>`
+Spanish:  
+`<start> si quieres sonar como un hablante nativo , debes estar dispuesto a practicar diciendo la misma frase una y otra vez de la misma manera en que un musico de banjo practica el mismo fraseo una y otra vez hasta que lo puedan tocar correctamente y en el tiempo esperado . <end>`  
 
 
