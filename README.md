@@ -25,6 +25,7 @@ An NMT system first reads the source sentence using an encoder to build a "thoug
 
 <p align="center">
   <img  src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/encoder_decoder_architecture.jpg">
+  <p>Figure 1. Encoder-decoder architecture – example of a general approach for NMT. An encoder converts a source sentence into a "meaning" vector which is passed through a decoder to produce a translation.</p>
 </p>
 
 
@@ -34,4 +35,5 @@ We consider as examples a deep multi-layer RNN which is unidirectional and uses 
 
 <p align="center">
   <img  src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/neural_machine_translation.jpg">
+  <p>Figure 2. Neural machine translation – example of a deep recurrent architecture proposed by for translating a source sentence "I am a student" into a target sentence "Je suis étudiant". Here, "<s>" marks the start of the decoding process while "</s>" tells the decoder to stop.</p>
 </p>
