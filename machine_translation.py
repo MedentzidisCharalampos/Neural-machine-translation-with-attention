@@ -471,17 +471,3 @@ for epoch in range(EPOCHS):
 
   #Input: < start > trata  de  averiguarlo. < end >
   #Predicted translation: try to figure it out.< end >
-
-
-
-
-
-
-
-
-
-
-
-
-
-
