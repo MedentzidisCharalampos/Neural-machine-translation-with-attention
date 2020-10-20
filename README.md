@@ -35,9 +35,9 @@ We now describe an instance of the attention mechanism proposed in (Luong et al.
 
 
 <p align="center">
-  <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/attention%20mechanism.png" />
+  <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/attention_mechanism.jpg" />
 </p>    
-<p align="center">  Figure 1. Attention Mechanism. <p>  
+<p align="center">  Figure 2. Attention Mechanism. <p>  
 As illustrated in Figure 2, the attention computation happens at every decoder time step. It consists of the following stages:
 
 1. The current target hidden state is compared with all source states to derive attention weights (can be visualized as in Figure 1).
