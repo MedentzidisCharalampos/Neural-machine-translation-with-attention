@@ -27,11 +27,19 @@ The key idea of the attention mechanism is to establish direct short-cut connect
 ![alt text](https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/attention%20visualization.png)  
 Figure 1. Attention visualization.  
 
+<p align="center">
+  <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/attention%20visualization.png" />
+  <p>Figure 1. Attention visualization.</p>  
+</p>
 We now describe an instance of the attention mechanism proposed in (Luong et al., 2015), which has been used in several state-of-the-art systems including open-source toolkits such as OpenNMT.
 
 ![alt text](https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/attention_mechanism.jpg)  
 Figure 2. Attention mechanism.  
 
+<p align="center">
+  <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/attention%mechanism.png" />
+  <p>Figure 1. Attention Mechanism.</p>  
+</p>
 As illustrated in Figure 2, the attention computation happens at every decoder time step. It consists of the following stages:
 
 1. The current target hidden state is compared with all source states to derive attention weights (can be visualized as in Figure 1).
