@@ -55,5 +55,9 @@ Here, the function score is used to compared the target hidden state with each o
 6. Teacher forcing is the technique where the target word is passed as the next input to the decoder.
 7. The final step is to calculate the gradients and apply it to the optimizer and backpropagate.
 
+# Translate
 
+1. The evaluate function is similar to the training loop, except we don't use teacher forcing here. The input to the decoder at each time step is its previous predictions along with the hidden state and the encoder output.
+2. Stop predicting when the model predicts the end token.
+3. Store the attention weights for every time step.
 
