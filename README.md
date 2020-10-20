@@ -41,7 +41,7 @@ As illustrated in Figure 2, the attention computation happens at every decoder t
 
 ![alt text](https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/attention_equation.jpg)
 
-Here, the function score is used to compared the target hidden state with each of the source hidden states, and the result is normalized to produced attention weights. There are various choices of the scoring function; popular scoring functions include the multiplicative and additive forms given in Eq. (4). Once computed, the attention vector $$a_t$$ is used to derive the softmax logit and loss. 
+Here, the function score is used to compared the target hidden state with each of the source hidden states, and the result is normalized to produced attention weights. There are various choices of the scoring function; popular scoring functions include the multiplicative and additive forms given in Eq. (4). 
 
 ![alt text](https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/score_function.jpg)
 
