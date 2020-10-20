@@ -73,28 +73,28 @@ Input: <start> hace mucho frio aqui . <end>
 Predicted translation: it s very cold here . <end> 
 
 <p align="center">
-  <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/output1.jpg" />
+  <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/output1.png" />
 </p>    
  
 Input: <start> esta es mi vida . <end>
 Predicted translation: this is my life . <end> 
 
 <p align="center">
-  <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/output2.jpg" />
+  <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/output2.png" />
 </p>    
  
 Input: <start> ¿ todavia estan en casa ? <end>
 Predicted translation: are you still at home ? <end> 
 
 <p align="center">
-  <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/output3.jpg" />
+  <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/output3.png" />
 </p>    
  
 Input: <start> trata de averiguarlo . <end>
 Predicted translation: try to figure it out . <end> 
 
 <p align="center">
-  <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/output4.jpg" />
+  <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/output4.png" />
 </p>    
  
 
