@@ -74,8 +74,8 @@ Predicted translation: it s very cold here . <end>
   <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/output1.png" />
 </p>    
  
-Input: <start> esta es mi vida . <end>
-Predicted translation: this is my life . <end> 
+Input: <start> esta es mi vida . <end>  
+Predicted translation: this is my life . <end>   
 
 <p align="center">
   <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/output2.png" />
