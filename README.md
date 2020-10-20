@@ -24,8 +24,6 @@ Spanish:
 
 The key idea of the attention mechanism is to establish direct short-cut connections between the target and the source by paying "attention" to relevant source content as we translate. A nice byproduct of the attention mechanism is an easy-to-visualize alignment matrix between the source and target sentences.
 
- 
-
 <p align="center">
   <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/attention%20visualization.png" />
 </p>  
@@ -69,8 +67,8 @@ Here, the function score is used to compared the target hidden state with each o
 
 # Output
 
-Input: <start> hace mucho frio aqui . <end>
-Predicted translation: it s very cold here . <end> 
+Input: <start> hace mucho frio aqui . <end>  
+Predicted translation: it s very cold here . <end>   
 
 <p align="center">
   <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/output1.png" />
@@ -83,18 +81,16 @@ Predicted translation: this is my life . <end>
   <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/output2.png" />
 </p>    
  
-Input: <start> ¿ todavia estan en casa ? <end>
-Predicted translation: are you still at home ? <end> 
+Input: <start> ¿ todavia estan en casa ? <end>  
+Predicted translation: are you still at home ? <end>   
 
 <p align="center">
   <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/output3.png" />
 </p>    
  
-Input: <start> trata de averiguarlo . <end>
-Predicted translation: try to figure it out . <end> 
+Input: <start> trata de averiguarlo . <end>  
+Predicted translation: try to figure it out . <end>   
 
 <p align="center">
   <img src="https://github.com/MedentzidisCharalampos/Neural-machine-translation-with-attention/blob/main/output4.png" />
 </p>    
- 
-
