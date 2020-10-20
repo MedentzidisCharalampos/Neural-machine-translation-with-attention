@@ -46,4 +46,5 @@ Here, the function score is used to compared the target hidden state ` $$h_t$$ `
 
 
 
+    h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
