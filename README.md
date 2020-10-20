@@ -7,7 +7,7 @@ We use a language dataset provided by http://www.manythings.org/anki/ This datas
 
 `May I borrow this book?` `¿Puedo tomar prestado este libro?`
 
-There are a variety of languages available, but we'll use the English-Spanish dataset. For convenience, we've hosted a copy of this dataset on Google Cloud, but you can also download your own copy. After downloading the dataset, here are the steps we take to prepare the data:
+There are a variety of languages available, but we'll use the English-Spanish dataset. The steps we take to prepare the data:
 
 1. Add a start and end token to each sentence.
 2. Clean the sentences by removing special characters.
