@@ -65,7 +65,7 @@ Here, the function score is used to compared the target hidden state with each o
 2. Stop predicting when the model predicts the end token.
 3. Store the attention weights for every time step.
 
-# Output
+# Examples
 
 Input: <start> hace mucho frio aqui . <end>  
 Predicted translation: it s very cold here . <end>   
